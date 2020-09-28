@@ -2,7 +2,7 @@
 First program - HTML and JS
 
 
-# Learning
+# Learning (update 1)
 
 * User input.
 * Use the button to start a function.
