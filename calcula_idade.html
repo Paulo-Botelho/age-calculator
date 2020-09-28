@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="calcula_idade.css">
+    
+
+    </head>
+
+    <body>
+        <div class="bloco">
+            <label id="calcular" ><h1 class="titulo-principal">Digite o ano de seu nascimento, para calcular sua idade<h1></label>
+            <input type="number" required value="1990" id="calcular" class="calcular">
+            <br/>
+            <button class="botao" id="botao"> Calcular </button>
+            <h2 id="resposta" ></h2>
+
+
+        </div>  
+
+
+        <script>
+            var anoatual = 2020;
+            var ano = document.querySelector(".calcular");
+
+
+            ano.focus();
+            function nascimento(){
+                
+                
+                document.getElementById("resposta").innerHTML = "Você tem " + (anoatual-(ano.value)) + " anos." ;
+            }
+            
+            var button = document.querySelector(".botao");
+            button.onclick = nascimento;
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+body{
+    background-color: thistle;
+
+}
+.bloco{
+    text-align: center;
+    align-content: center;
+    width: 80%;
+    margin: 100px 10%;
+
+}
+.titulo-principal{
+    font-size: 25px;
+    margin: 0 0 1in;
+}
+.calcular{
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.botao{
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: skyblue;
+    background-color: snow;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.botao:hover{
+    transform: scale(1.1);
+}
+
+.botao:active{
+    border:none;
+}
+
+#resposta{
+    font-size: 20px;
+}
